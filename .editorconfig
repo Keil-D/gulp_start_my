@@ -1,0 +1,18 @@
+root = true
+
+# Задаем форматирование для всех файлов.
+[*]
+
+charset = utf-8
+indent_style = tab
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Но не переформатируем минифицированные файлы.
+[*.min.*]
+
+indent_style = ignore
+trim_trailing_whitespace = false
+insert_final_newline = ignor

@@ -1,0 +1,16 @@
+{
+  "name": "gulp_start_my",
+  "version": "1.0.0",
+  "description": "Gulp Keil_D start project",
+    "scripts": {
+
+  },
+	"keywords": ["gulp","js","sass","scss","pug","linters"],
+  "author": "Keil_D",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0"
+  }
+}

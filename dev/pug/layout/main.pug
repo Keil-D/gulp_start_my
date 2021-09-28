@@ -1,0 +1,23 @@
+block variables
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		title #{title}
+		//[if IE]
+		meta(http-equiv='X-UA-Compatible' content="IE = edge")
+		//[endif IE]
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		meta(name="keywords" content="")
+		link(rel="stylesheet" href="css/normalizeM.css")
+		link(rel="stylesheet" href="css/style.css")
+	body
+		.wrapper
+		//include ../modules/header/header
+		.content
+			block content
+		//include ../modules/footer/footer
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+		block script
+		script(src="js/main.js")

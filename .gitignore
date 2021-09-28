@@ -1,0 +1,31 @@
+# Папка с собранными файлами проекта
+# build/
+
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+ex_files
+
+# Файлы редактора
+.idea
+*.sublime*
+.vscode
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+
+# Файлы архивов
+_MACOSX
+*.rar
+*.zip
+_arc
+
+№	Фалы шифрования
+.Saved
+
+# Компоненты пакетного менетжера Bower для Web
+bower components
+
+# Файл презентации
+.publish
